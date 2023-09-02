@@ -1,0 +1,738 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateTodo /> renders CreateTodo component 1`] = `
+Array [
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-13i4rnv-MuiGrid-root"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1i2d8e4-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1kxdiu9-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"blob:http://localhost:3000/e088bcb4-e2b0-4f10-955c-e443a79a3362\\")",
+          }
+        }
+      />
+      <div
+        className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <h2
+            className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-67jxf-MuiTypography-root"
+            style={
+              Object {
+                "textDecoration": false,
+              }
+            }
+          >
+            Task Four
+          </h2>
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="FavoriteBorderIcon"
+            focusable="false"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginBottom": "10px",
+              }
+            }
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+            />
+          </svg>
+        </div>
+        <div
+          style={
+            Object {
+              "maxHeight": "25px",
+              "overflow": "hidden",
+              "textOverflow": "ellipsis",
+            }
+          }
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-13zw5gk-MuiTypography-root"
+          >
+            Description for Task Four
+          </p>
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-ii3d8b-MuiTypography-root"
+        >
+          2023-09-06
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          EDIT
+        </button>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Complete
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-13i4rnv-MuiGrid-root"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1i2d8e4-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1kxdiu9-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"blob:http://localhost:3000/07af165e-32f5-4e39-89e1-4ddd1b286bb9\\")",
+          }
+        }
+      />
+      <div
+        className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <h2
+            className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-67jxf-MuiTypography-root"
+            style={
+              Object {
+                "textDecoration": false,
+              }
+            }
+          >
+            Task Three
+          </h2>
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="FavoriteBorderIcon"
+            focusable="false"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginBottom": "10px",
+              }
+            }
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+            />
+          </svg>
+        </div>
+        <div
+          style={
+            Object {
+              "maxHeight": "25px",
+              "overflow": "hidden",
+              "textOverflow": "ellipsis",
+            }
+          }
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-13zw5gk-MuiTypography-root"
+          >
+            Description for Task Three
+          </p>
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-ii3d8b-MuiTypography-root"
+        >
+          2023-09-05
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          EDIT
+        </button>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Complete
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`<taskList /> renders taskList component for Created Items flow 1`] = `
+Array [
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-13i4rnv-MuiGrid-root"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1i2d8e4-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1kxdiu9-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"blob:http://localhost:3000/e088bcb4-e2b0-4f10-955c-e443a79a3362\\")",
+          }
+        }
+      />
+      <div
+        className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <h2
+            className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-67jxf-MuiTypography-root"
+            style={
+              Object {
+                "textDecoration": false,
+              }
+            }
+          >
+            Task Four
+          </h2>
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="FavoriteIcon"
+            focusable="false"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginBottom": "10px",
+              }
+            }
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m12 21.35-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+            />
+          </svg>
+        </div>
+        <div
+          style={
+            Object {
+              "maxHeight": "25px",
+              "overflow": "hidden",
+              "textOverflow": "ellipsis",
+            }
+          }
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-13zw5gk-MuiTypography-root"
+          >
+            Description for Task Four
+          </p>
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-ii3d8b-MuiTypography-root"
+        >
+          2023-09-06
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          EDIT
+        </button>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Complete
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-13i4rnv-MuiGrid-root"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1i2d8e4-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1kxdiu9-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"blob:http://localhost:3000/07af165e-32f5-4e39-89e1-4ddd1b286bb9\\")",
+          }
+        }
+      />
+      <div
+        className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <h2
+            className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-67jxf-MuiTypography-root"
+            style={
+              Object {
+                "textDecoration": false,
+              }
+            }
+          >
+            Task Three
+          </h2>
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="FavoriteBorderIcon"
+            focusable="false"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginBottom": "10px",
+              }
+            }
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+            />
+          </svg>
+        </div>
+        <div
+          style={
+            Object {
+              "maxHeight": "25px",
+              "overflow": "hidden",
+              "textOverflow": "ellipsis",
+            }
+          }
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-13zw5gk-MuiTypography-root"
+          >
+            Description for Task Three
+          </p>
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-ii3d8b-MuiTypography-root"
+        >
+          2023-09-05
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          EDIT
+        </button>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Complete
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`<taskList /> renders taskList component for Deleted Items flow 1`] = `
+Array [
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-13i4rnv-MuiGrid-root"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1i5xu7h-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1kxdiu9-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"blob:http://localhost:3000/e088bcb4-e2b0-4f10-955c-e443a79a3362\\")",
+          }
+        }
+      />
+      <div
+        className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <h2
+            className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-67jxf-MuiTypography-root"
+            style={
+              Object {
+                "textDecoration": "line-through",
+              }
+            }
+          >
+            Task Four
+          </h2>
+        </div>
+        <div
+          style={
+            Object {
+              "maxHeight": "25px",
+              "overflow": "hidden",
+              "textOverflow": "ellipsis",
+            }
+          }
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-13zw5gk-MuiTypography-root"
+          >
+            Description for Task Four
+          </p>
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-ii3d8b-MuiTypography-root"
+        >
+          2023-09-06
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          RE-OPEN
+          <span
+            className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          DELETE
+          <span
+            className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 css-13i4rnv-MuiGrid-root"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1i5xu7h-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1kxdiu9-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"blob:http://localhost:3000/07af165e-32f5-4e39-89e1-4ddd1b286bb9\\")",
+          }
+        }
+      />
+      <div
+        className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <h2
+            className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-67jxf-MuiTypography-root"
+            style={
+              Object {
+                "textDecoration": "line-through",
+              }
+            }
+          >
+            Task Three
+          </h2>
+        </div>
+        <div
+          style={
+            Object {
+              "maxHeight": "25px",
+              "overflow": "hidden",
+              "textOverflow": "ellipsis",
+            }
+          }
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-13zw5gk-MuiTypography-root"
+          >
+            Description for Task Three
+          </p>
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-ii3d8b-MuiTypography-root"
+        >
+          2023-09-05
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          RE-OPEN
+          <span
+            className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          DELETE
+          <span
+            className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;
