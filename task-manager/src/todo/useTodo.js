@@ -84,7 +84,6 @@ export const useTodo = () => {
   };
 
   useEffect(() => {
-    console.log("STATE FROM REDUX", tasks);
     localStorage.setItem("tasks", JSON.stringify(tasks));
   }, [tasks]);
 
