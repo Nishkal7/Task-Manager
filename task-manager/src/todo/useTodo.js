@@ -8,6 +8,7 @@ import {
   editTasks,
   favTasks,
 } from "../reducers/todo";
+import { useNavigate } from "react-router-dom";
 
 export const useTodo = () => {
   const [taskTitle, settaskTitle] = useState("");
@@ -23,6 +24,7 @@ export const useTodo = () => {
     image: false,
   });
   const tasks = useSelector((state) => state.todo);
+  const navigate = useNavigate();
 
   const changeHandler = (e) => {
     if (e.target.name === "taskTitle") {
@@ -137,6 +139,13 @@ export const useTodo = () => {
     );
   };
 
+  const navigationHandler = (task) => {
+    console.log('Task====', task)
+    navigate("/details", {
+      state: task
+  })
+}
+
   const favPress = (task, ind) => {
     dispatch(
       favTasks({
@@ -163,5 +172,6 @@ export const useTodo = () => {
     undoTodo,
     validate,
     favPress,
+    navigationHandler
   };
 };

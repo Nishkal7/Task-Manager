@@ -27,7 +27,8 @@ const Todo = () => {
     closeTodo,
     undoTodo,
     validate,
-    favPress
+    favPress,
+    navigationHandler
   } = useTodo();
   // const classes = useStyles();
   const defaultTheme = createTheme();
@@ -61,17 +62,28 @@ const Todo = () => {
         </Button>
       </Box>
       <div style={useStyles.cardsLayoutView}>
-        <Grid container spacing={3} padding={2}>
-          <TaskList create={true} tasks = {tasks.tasks} buttonOne={editTask} buttonTwo = {closeTodo} favPress = {favPress}/>
+        <Grid container spacing={3} padding={2} style={{ width: tasks.closedTasks.length > 0 ? "50%" : "100%" }}>
+          <TaskList
+            create={true}
+            tasks={tasks.tasks}
+            buttonOne={editTask}
+            buttonTwo={closeTodo}
+            favPress={favPress}
+            navigationHandler={navigationHandler}
+          />
         </Grid>
-        {tasks.closedTasks.length > 0 && (
-          <>
-            <div style={useStyles.vl}></div>
-            <Grid container spacing={3} padding={2}>
-            <TaskList create={false} tasks = {tasks.closedTasks} buttonOne={undoTodo} buttonTwo = {deleteTodo}/>
-            </Grid>
-          </>
-        )}
+        <>
+          <div style={useStyles.vl}></div>
+          <Grid container spacing={3} padding={2} style={{width: tasks.tasks.length > 0 ? "50%" : "100%"  }}>
+            <TaskList
+              create={false}
+              tasks={tasks.closedTasks}
+              buttonOne={undoTodo}
+              buttonTwo={deleteTodo}
+              navigationHandler={navigationHandler}
+            />
+          </Grid>
+        </>
       </div>
     </ThemeProvider>
   );

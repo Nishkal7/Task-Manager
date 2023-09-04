@@ -10,13 +10,19 @@ import Typography from "@mui/material/Typography";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 
-const TaskList = ({ create, tasks, buttonOne, buttonTwo, favPress }) => {
+const TaskList = ({
+  create,
+  tasks,
+  buttonOne,
+  buttonTwo,
+  favPress,
+  navigationHandler,
+}) => {
   return tasks.map((task, ind) => {
     return (
       <Grid item key={ind} xs={12} sm={6} md={4}>
         <Card
           sx={{
-            // height: "100%",
             backgroundColor: create ? "#eaebee" : "#ffdddd",
           }}
         >
@@ -26,18 +32,19 @@ const TaskList = ({ create, tasks, buttonOne, buttonTwo, favPress }) => {
               pt: "56.25%",
             }}
             image={task.taskImage}
+            onClick={() => navigationHandler(task)}
           />
-          <CardContent sx={{ flexGrow: 1 }}>
+          <CardContent
+            sx={{ flexGrow: 1 }}
+          >
             <div style={useStyles.favIconContainer}>
               <Typography
-                paddingTop={1}
-                paddingLeft={1}
-                gutterBottom
-                variant="h5"
-                component="h2"
+                variant="h6"
+                noWrap={true}
                 style={{
                   textDecoration: !create && "line-through",
                 }}
+                onClick={() => navigationHandler(task)}
               >
                 {task.taskName}
               </Typography>
@@ -55,21 +62,14 @@ const TaskList = ({ create, tasks, buttonOne, buttonTwo, favPress }) => {
                 )
               ) : null}
             </div>
-            <div style={{overflow: "hidden", textOverflow: "ellipsis", maxHeight: '25px'}}>
-            <Typography
-            
-              paddingLeft={1}
-            >
-              {task.taskDescription}
-            </Typography>
+            <div >
+              <Typography noWrap={true}>{task.taskDescription}</Typography>
             </div>
-            <Typography paddingLeft={1} color={"red"}>
-              {task.taskDeadline}
-            </Typography>
+            <Typography onClick={() => navigationHandler(task)} color={"red"}>{task.taskDeadline}</Typography>
           </CardContent>
           <CardActions>
-            <Button size="small" onClick={() => buttonOne(task, ind)}>
-              {create ? "EDIT" : "RE-OPEN"}
+            <Button size="large" onClick={() => buttonOne(task, ind)}>
+              {create ? "EDIT.." : "REOPEN"}
             </Button>
             <Button size="small" onClick={() => buttonTwo(task, ind)}>
               {create ? "Complete" : "DELETE"}

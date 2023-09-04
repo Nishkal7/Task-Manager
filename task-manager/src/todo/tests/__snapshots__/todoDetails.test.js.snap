@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoDetails /> renders TodoDetails component 1`] = `
+<div>
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeLarge MuiButton-textSizeLarge MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeLarge MuiButton-textSizeLarge css-kpm0tx-MuiButtonBase-root-MuiButton-root"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        Back
+      </button>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-i0b6mt-MuiGrid-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-8 css-o4bg9w-MuiGrid-root"
+      >
+        <div
+          className="MuiCardMedia-root css-1kxdiu9-MuiCardMedia-root"
+          role="img"
+          style={
+            Object {
+              "backgroundImage": "url(\\"blob:http://localhost:3000/e088bcb4-e2b0-4f10-955c-e443a79a3362\\")",
+            }
+          }
+        />
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 css-wg4xta-MuiGrid-root"
+      >
+        <div
+          className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+              "height": "100%",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "space-between",
+                "paddingBottom": "2%",
+              }
+            }
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+            >
+              Task Four
+            </h6>
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="FavoriteIcon"
+              focusable="false"
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m12 21.35-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+              />
+            </svg>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingBottom": "2%",
+              }
+            }
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+            >
+              Description for Task Four
+            </p>
+          </div>
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1kivl2a-MuiTypography-root"
+          >
+            2023-09-06
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -21,13 +21,14 @@ const useStyles = {
     left: "50%",
   },
   favIconContainer: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center'
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    paddingBottom: '2%'
   },
   favIcon: {
-    marginBottom: '10px'
-  }
+    marginBottom: "10px",
+  },
 };
 
 export default useStyles;
