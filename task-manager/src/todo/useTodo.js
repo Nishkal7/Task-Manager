@@ -140,7 +140,6 @@ export const useTodo = () => {
   };
 
   const navigationHandler = (task) => {
-    console.log('Task====', task)
     navigate("/details", {
       state: task
   })
