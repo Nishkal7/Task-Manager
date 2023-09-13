@@ -1,8 +1,18 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+const sortData = (data) => {
+  //  Sort logic to sort data by date
+  //  data.tasks.sort((a, b) => {
+  //   let ad = new Date(a.taskDeadline)
+  //   let bd = new Date(b.taskDeadline)
+  //   return ad - bd;
+  //  })
+  return data;
+}
+
 const todoSlice = createSlice({
   name: "todo",
-  initialState: JSON.parse(localStorage.getItem("tasks")) ?? {
+  initialState: sortData(JSON.parse(localStorage.getItem("tasks"))) ?? {
     tasks: [],
     closedTasks: [],
   },
